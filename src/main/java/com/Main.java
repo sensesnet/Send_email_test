@@ -22,7 +22,7 @@ public class Main {
 
     public static void main(String[] args) throws MessagingException, SQLException, FileNotFoundException, DocumentException {
 
-//      //Open pdf
+        //Open pdf
         CreateReport createReport = new CreateReport();
         createReport.openPdf();
 
@@ -46,11 +46,11 @@ public class Main {
                 sslSender.send("This is Subject MSG", "SSL: This is text MSG!", userMail);
                 sslSender.saveMSG();
 
-                //Log in to acc1 from UI. Check e-mail in Sent present
+                //Log in to acc1 from UI. Check e-mail in Sent present (use Java Mail API)
                 CheckingOutbox checkingOutbox = new CheckingOutbox(sender, senderPass);
                 checkingOutbox.check();
 
-                // Log in to acc2 from UI. Check e-mail in Inbox
+                // Log in to acc2 from UI. Check e-mail in Inbox (use Java Mail API)
                 CheckingInbox checkingInbox = new CheckingInbox(userMail, password);
                 checkingInbox.check();
 
@@ -77,7 +77,6 @@ public class Main {
                 senderPass = password;
                 System.out.println(sender);
                 System.out.println(senderPass);
-
 
             }
         } catch (MessagingException e) {
