@@ -1,0 +1,7 @@
+2016-08-27 09:13:17 INFO  Sender:34 - -try to send email
+2016-08-27 09:13:17 INFO  Sender:43 - -get session successfully
+2016-08-27 09:13:20 INFO  Sender:54 - -sent message successfully
+2016-08-27 09:13:20 INFO  Sender:68 - -try to save msg to sent folder
+2016-08-27 09:13:21 INFO  Sender:73 - -try to open sent folder
+2016-08-27 09:13:21 INFO  Sender:79 - -folder was open
+2016-08-27 09:13:22 INFO  Sender:81 - -msg was save

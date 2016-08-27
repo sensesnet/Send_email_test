@@ -1,5 +1,3 @@
-detest11@tut.by;test1111
-detest22@tut.by;test2222
 detest33@tut.by;test3333
 detest44@tut.by;test4444
 detest55@tut.by;test5555
