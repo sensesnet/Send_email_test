@@ -5,7 +5,6 @@ import com.outbox.CheckingOutbox;
 import com.saveToDB.dao.AccountDao;
 import com.saveToDB.pojos.Account;
 import com.saveTofile.SaveToCSV;
-import com.saveTofile.SaveToXML;
 import com.ssl.Sender;
 import org.testng.annotations.Test;
 
@@ -57,9 +56,6 @@ public class SendMailTest {
     }
     @Test
     public void savetofile()  {
-        //store accounts in xml
-        SaveToXML saveToXML = new SaveToXML();
-        saveToXML.saveToXML(recipient, recipientpass);
 
         //store accounts in csv
         SaveToCSV saveToCSV = new SaveToCSV();
