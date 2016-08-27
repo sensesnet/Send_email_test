@@ -6,6 +6,7 @@ import com.saveToDB.dao.AccountDao;
 import com.saveToDB.pojos.Account;
 import com.saveTofile.SaveToCSV;
 import com.ssl.Sender;
+import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
 import javax.mail.MessagingException;
@@ -16,37 +17,69 @@ import java.sql.SQLException;
  */
 public class SendMailTest {
 
-    String sender = "detest11@tut.by";
-    String senderPass = "test1111";
-    String recipient =  "detest55@tut.by";
-    String recipientpass =  "test5555";
 
-    @Test
-    public void sendmailtest() throws MessagingException {
+    @DataProvider(name = "loginList_1")
+    Object[][] loginList1() {
+        return new String[][]{
+                //sender; sender pass;
+                {"detest00@tut.by", "test0000"},
+                {"detest11@tut.by", "test1111"},
+                {"detest22@tut.by", "test2222"},
+                {"detest33@tut.by", "test3333"},
+                {"detest44@tut.by", "test4444"},
+                {"detest55@tut.by", "test5555"},
+                {"detest66@tut.by", "test6666"},
+                {"detest77@tut.by", "test7777"},
+                {"detest88@tut.by", "test8888"},
+                {"detest99@tut.by", "test9999"},
+
+        };
+    }
+    @DataProvider(name = "loginList_2")
+    Object[][] loginList2() {
+        return new String[][]{
+                //sender; sender pass; recipient
+                {"detest00@tut.by", "test0000","detest11@tut.by"},
+                {"detest11@tut.by", "test1111","detest22@tut.by"},
+                {"detest22@tut.by", "test2222","detest33@tut.by"},
+                {"detest33@tut.by", "test3333","detest44@tut.by"},
+                {"detest44@tut.by", "test4444","detest55@tut.by"},
+                {"detest55@tut.by", "test5555","detest66@tut.by"},
+                {"detest66@tut.by", "test6666","detest77@tut.by"},
+                {"detest77@tut.by", "test7777","detest88@tut.by"},
+                {"detest88@tut.by", "test8888","detest99@tut.by"},
+                {"detest99@tut.by", "test9999","detest00@tut.by"},
+
+        };
+    }
+
+    @Test(dataProvider = "loginList_2")
+    public void sendmailtest(String sender,String senderPass,String recipient) throws MessagingException {
 
         // Send e-mail from account 1 to account 2 (use Java Mail API)
-        Sender sslSender = new Sender(sender, senderPass);
+        Sender sslSender = new Sender("test33334444@yandex.ru", "test4433");
+        //Sender sslSender = new Sender(sender, senderPass);
         sslSender.send("This is Subject MSG", "SSL: This is text MSG!", recipient);
         sslSender.saveMSG();
     }
 
-    @Test
-    public void checkoutboxtest() {
+    @Test (dataProvider = "loginList_1")
+    public void checkoutboxtest(String sender,String senderPass) {
 
         //Log in to acc1 from UI. Check e-mail in Sent present (use Java Mail API)
         CheckingOutbox checkingOutbox = new CheckingOutbox(sender, senderPass);
         checkingOutbox.check();
     }
 
-    @Test
-    public void checkinboxtest() {
+    @Test (dataProvider = "loginList_1")
+    public void checkinboxtest(String recipient,String recipientpass) {
 
         // Log in to acc2 from UI. Check e-mail in Inbox (use Java Mail API)
         CheckingInbox checkingInbox = new CheckingInbox(recipient, recipientpass);
         checkingInbox.check();
     }
-    @Test
-    public void savetoDB() throws SQLException {
+    @Test (dataProvider = "loginList_1")
+    public void savetoDB(String recipient, String recipientpass) throws SQLException {
         // store accounts in DB
         Account account = new Account();
         AccountDao accountDao = AccountDao.getInstanse();
@@ -54,8 +87,8 @@ public class SendMailTest {
         account.setPassword(recipientpass);
         accountDao.add(account);
     }
-    @Test
-    public void savetofile()  {
+    @Test (dataProvider = "loginList_1")
+    public void savetofile(String recipient,String recipientpass)  {
 
         //store accounts in csv
         SaveToCSV saveToCSV = new SaveToCSV();

@@ -1,0 +1,50 @@
+2016-08-27 11:29:49 INFO  Sender:34 - -try to send email
+2016-08-27 11:29:49 INFO  Sender:43 - -get session successfully
+2016-08-27 11:29:51 INFO  Sender:54 - -sent message successfully
+2016-08-27 11:29:51 INFO  Sender:68 - -try to save msg to sent folder
+2016-08-27 11:29:52 INFO  Sender:73 - -try to open sent folder
+2016-08-27 11:29:53 INFO  Sender:79 - -folder was open
+2016-08-27 11:29:53 INFO  Sender:81 - -msg was save
+2016-08-27 11:29:53 INFO  Sender:34 - -try to send email
+2016-08-27 11:29:53 INFO  Sender:43 - -get session successfully
+2016-08-27 11:29:54 INFO  Sender:54 - -sent message successfully
+2016-08-27 11:29:54 INFO  Sender:68 - -try to save msg to sent folder
+2016-08-27 11:29:55 INFO  Sender:73 - -try to open sent folder
+2016-08-27 11:29:56 INFO  Sender:79 - -folder was open
+2016-08-27 11:29:56 INFO  Sender:81 - -msg was save
+2016-08-27 11:29:56 INFO  Sender:34 - -try to send email
+2016-08-27 11:29:56 INFO  Sender:43 - -get session successfully
+2016-08-27 11:29:58 INFO  Sender:54 - -sent message successfully
+2016-08-27 11:29:58 INFO  Sender:68 - -try to save msg to sent folder
+2016-08-27 11:29:59 INFO  Sender:73 - -try to open sent folder
+2016-08-27 11:29:59 INFO  Sender:79 - -folder was open
+2016-08-27 11:30:00 INFO  Sender:81 - -msg was save
+2016-08-27 11:30:00 INFO  Sender:34 - -try to send email
+2016-08-27 11:30:00 INFO  Sender:43 - -get session successfully
+2016-08-27 11:30:01 INFO  Sender:54 - -sent message successfully
+2016-08-27 11:30:01 INFO  Sender:68 - -try to save msg to sent folder
+2016-08-27 11:30:02 INFO  Sender:73 - -try to open sent folder
+2016-08-27 11:30:03 INFO  Sender:79 - -folder was open
+2016-08-27 11:30:03 INFO  Sender:81 - -msg was save
+2016-08-27 11:30:03 INFO  Sender:34 - -try to send email
+2016-08-27 11:30:03 INFO  Sender:43 - -get session successfully
+2016-08-27 11:30:05 INFO  Sender:54 - -sent message successfully
+2016-08-27 11:30:05 INFO  Sender:68 - -try to save msg to sent folder
+2016-08-27 11:30:06 INFO  Sender:73 - -try to open sent folder
+2016-08-27 11:30:06 INFO  Sender:79 - -folder was open
+2016-08-27 11:30:07 INFO  Sender:81 - -msg was save
+2016-08-27 11:30:07 INFO  Sender:34 - -try to send email
+2016-08-27 11:30:07 INFO  Sender:43 - -get session successfully
+2016-08-27 11:30:07 ERROR Sender:61 - couldn't to send email
+2016-08-27 11:30:08 INFO  Sender:34 - -try to send email
+2016-08-27 11:30:08 INFO  Sender:43 - -get session successfully
+2016-08-27 11:30:08 ERROR Sender:61 - couldn't to send email
+2016-08-27 11:30:08 INFO  Sender:34 - -try to send email
+2016-08-27 11:30:08 INFO  Sender:43 - -get session successfully
+2016-08-27 11:30:09 ERROR Sender:61 - couldn't to send email
+2016-08-27 11:30:09 INFO  Sender:34 - -try to send email
+2016-08-27 11:30:09 INFO  Sender:43 - -get session successfully
+2016-08-27 11:30:09 ERROR Sender:61 - couldn't to send email
+2016-08-27 11:30:09 INFO  Sender:34 - -try to send email
+2016-08-27 11:30:09 INFO  Sender:43 - -get session successfully
+2016-08-27 11:30:10 ERROR Sender:61 - couldn't to send email
