@@ -13,9 +13,11 @@ import java.util.concurrent.TimeUnit;
 /**
  * Created by KIRILL on 27.08.2016.
  */
-public class LogIn {
+public class LogInNegative {
+    // negative test without login or pass
 
-    public void loginChrome(String email, String pass) throws IOException {
+    public void withoutLogPass(String email, String pass) throws IOException {
+
         Contacts con = new Contacts();
         WebDrivers wb = new WebDrivers();
 
@@ -34,15 +36,15 @@ public class LogIn {
         driver.findElement(By.xpath("//input[@value='Войти']")).click();
         driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 
-        Assert.assertEquals(driver.findElement(By.cssSelector("span.header-user-name.js-header-user-name")).getText(), email);
-        driver.close();
-    }
 
-    public void loginFireFox(String email, String pass) throws IOException {
+    }
+    //wrong login or pass
+    public void invalidLogPass(String email, String pass) throws IOException {
+
         Contacts con = new Contacts();
         WebDrivers wb = new WebDrivers();
 
-        WebDriver driver = wb.fireFoxDriver(con.url);
+        WebDriver driver = wb.chromeDriver(con.url);
 
         WebElement userName = driver.findElement(By.id("Username"));
         userName.clear();
@@ -57,8 +59,7 @@ public class LogIn {
         driver.findElement(By.xpath("//input[@value='Войти']")).click();
         driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 
-        //Assert.assertEquals(driver.findElement(By.cssSelector("span.header-user-name.js-header-user-name")).getText(), email);
+        Assert.assertEquals(driver.findElement(By.cssSelector("fieldset > strong")).getText(), "Неверное имя пользователя или пароль");
         driver.close();
     }
-
 }

@@ -39,37 +39,5 @@ public class LogInChromeTest {
       login.loginChrome(email, pass);
 
     }
-    //----------------------------------------------------------------------
-    //negative test
 
-    @Test
-    public void invalidLogin() throws IOException {
-
-        login.loginChrome("invalid", "test1111");
-
-    }
-
-    @Test
-    public void invalidPassword() throws IOException {
-
-        login.loginChrome("detest11@tut.by", "invalid");
-    }
-
-    @Test
-    public void invalidLoginPassword() throws IOException {
-
-        login.loginChrome("invalid", "invalid");
-    }
-
-    @Test
-    public void withoutLogin() throws IOException {
-
-        login.loginChrome("", "test1111");
-    }
-
-    @Test
-    public void withoutPassword() throws IOException {
-
-        login.loginChrome("detest11@tut.by", "");
-    }
 }

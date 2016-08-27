@@ -57,15 +57,4 @@ public class LogInFireFoxTest {
         login.loginFireFox("invalid", "invalid");
     }
 
-    @Test
-    public void withoutLogin() throws IOException {
-
-        login.loginFireFox("", "test1111");
-    }
-
-    @Test
-    public void withoutPassword() throws IOException {
-
-        login.loginFireFox("detest11@tut.by", "");
-    }
 }

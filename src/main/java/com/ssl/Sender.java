@@ -54,7 +54,7 @@ public class Sender {
                 logger.info("-sent message successfully");
 
             System.out.println("___step 1_send  mail_______");
-            System.out.println("mail sent to:" + username);
+            System.out.println("mail sent to:" + toEmail);
 
 
         } catch (MessagingException e) {
