@@ -1,3 +1,5 @@
+package SendEMailTest;
+
 import com.inbox.CheckingInbox;
 import com.outbox.CheckingOutbox;
 import com.ssl.Sender;
@@ -7,7 +9,7 @@ import javax.mail.MessagingException;
 import java.io.FileNotFoundException;
 
 /**
- * Created by KIRILL on 08.08.2016.
+ * Send e-mail from account 1 to account 2 (use Java Mail API)
  */
 public class SendMailTest {
 

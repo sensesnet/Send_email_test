@@ -76,18 +76,4 @@ public class CreateReport {
         document.close();
         writer.close();
     }
-
-//    public static void main(String[] args) throws DocumentException {
-//        CreateReport createReport = new CreateReport();
-//        createReport.openPdf();
-//        createReport.addLineToPDF("Tets@tut.by", "failed", "Don't open folder");
-//        createReport.addLineToPDF("Tets@tut.by", "failed", "Don't open folder");
-//        createReport.addLineToPDF("Tets@tut.by", "failed", "Don't open folder");
-//        createReport.addLineToPDF("Tets@tut.by", "failed", "Don't open folder");
-//        createReport.addLineToPDF("Tets@tut.by", "failed", "Don't open folder");
-//        createReport.addLineToPDF("Tets@tut.by", "failed", "Don't open folder");
-//        createReport.addLineToPDF("Tets@tut.by", "failed", "Don't open folder");
-//        createReport.addLineToPDF("Tets@tut.by", "failed", "Don't open folder");
-//        createReport.closePDF();
-//    }
 }
