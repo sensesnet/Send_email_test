@@ -48,10 +48,10 @@ public class CheckingOutbox {
             inbox.open(Folder.READ_ONLY);
             Message messages[] = inbox.search(new FlagTerm(new Flags(Flags.Flag.SEEN), false));
 
-            System.out.println("___step 2_check sent mail___________");
-            System.out.println("Number of sent mails = " + inbox.getMessageCount());
-            System.out.println("Number of new  mails = " + inbox.getUnreadMessageCount());
-            System.out.println("____________________________________");
+            logger.info("___step 2_check sent mail___________");
+            logger.info("Number of sent mails = " + inbox.getMessageCount());
+            logger.info("Number of new  mails = " + inbox.getUnreadMessageCount());
+            logger.info("____________________________________");
 
               // show msg
 //            for (int i = 0; i < messages.length; i++) {

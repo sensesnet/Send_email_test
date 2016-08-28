@@ -47,10 +47,10 @@ public class CheckingInbox {
             // open for read
             inbox.open(Folder.READ_ONLY);
             Message messages[] = inbox.search(new FlagTerm(new Flags(Flags.Flag.SEEN), false));
-            System.out.println("___step 3_check inbox mail___________");
-            System.out.println("Number of mails = " + inbox.getMessageCount());
-            System.out.println("Number of new mails = " + inbox.getUnreadMessageCount());
-            System.out.println("_____________________________________");
+            logger.info("___step 3_check inbox mail___________");
+            logger.info("Number of mails = " + inbox.getMessageCount());
+            logger.info("Number of new mails = " + inbox.getUnreadMessageCount());
+            logger.info("_____________________________________");
 
              //show msg
 //            for (int i = 0; i < messages.length; i++) {

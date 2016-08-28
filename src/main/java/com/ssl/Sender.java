@@ -31,7 +31,7 @@ public class Sender {
 
     public void send(String subject, String text, String toEmail) {
 
-            logger.info("-try to send email");
+        logger.info("-try to send email");
 
         //get session
         session = Session.getDefaultInstance(props, new Authenticator() {
@@ -40,7 +40,7 @@ public class Sender {
             }
         });
 
-            logger.info("-get session successfully");
+        logger.info("-get session successfully");
 
         try {
             //crt msg
@@ -51,36 +51,36 @@ public class Sender {
             message.setText(text);             //text of mess
 
             Transport.send(message);
-                logger.info("-sent message successfully");
+            logger.info("-sent message successfully");
 
             System.out.println("___step 1_send  mail_______");
             System.out.println("mail sent to:" + toEmail);
 
 
         } catch (MessagingException e) {
-                logger.error("couldn't to send email");
+            logger.error("couldn't to send email");
             throw new RuntimeException(e);
         }
     }
 
     public void saveMSG() throws MessagingException {
 
-            logger.info("-try to save msg to sent folder");
+        logger.info("-try to save msg to sent folder");
         //saveTofile msg to sent msg folder
         Store store = session.getStore("imaps");
         store.connect("imap.yandex.ru", username, password);
 
-            logger.info("-try to open sent folder");
+        logger.info("-try to open sent folder");
         Folder folder = (Folder) store.getFolder("Отправленные");
         if (!folder.exists()) {
             folder.create(Folder.HOLDS_MESSAGES);
         }
         folder.open(Folder.READ_WRITE);
-            logger.info("-folder was open");
+        logger.info("-folder was open");
         folder.appendMessages(new Message[]{message});
-            logger.info("-msg was save");
-        System.out.println("Msg send and saved ....");
-        System.out.println("________________________________");
+        logger.info("-msg was save");
+        logger.info("Msg send and saved ....");
+        logger.info("________________________________");
     }
 
 

@@ -28,6 +28,20 @@
             <artifactId>testng</artifactId>
             <version>6.9.10</version>
         </dependency>
+
+        <dependency>
+            <groupId>org.uncommons</groupId>
+            <artifactId>reportng</artifactId>
+            <version>1.1.2</version>
+            <scope>test</scope>
+            <exclusions>
+                <exclusion>
+                    <groupId>org.testng</groupId>
+                    <artifactId>testng</artifactId>
+                </exclusion>
+            </exclusions>
+        </dependency>
+
         <dependency>
             <groupId>mysql</groupId>
             <artifactId>mysql-connector-java</artifactId>
@@ -86,9 +100,12 @@
 
     </dependencies>
 
+
     <build>
         <finalName>SendMail</finalName>
         <plugins>
+
+
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-compiler-plugin</artifactId>
@@ -110,7 +127,9 @@
                 </configuration>
             </plugin>
 
+
         </plugins>
     </build>
+
 
 </project>

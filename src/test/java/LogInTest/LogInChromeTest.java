@@ -6,6 +6,7 @@ package LogInTest;
  */
 
 import com.WebDriver.LogIn.LogIn;
+import org.apache.log4j.Logger;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
@@ -14,7 +15,7 @@ import java.io.IOException;
 public class LogInChromeTest {
 
     LogIn login = new LogIn();
-
+    static Logger logger = Logger.getLogger(LogInChromeTest.class.getName());
 
     @DataProvider(name = "loginList")
     Object[][] loginList() {
@@ -33,10 +34,11 @@ public class LogInChromeTest {
         };
     }
 
-    @Test (dataProvider = "loginList")
+    @Test(dataProvider = "loginList")
     public void correctLogin(String email, String pass) throws IOException {
-
-      login.loginChrome(email, pass);
+        logger.info(" - start correctLogin test");
+        login.loginChrome(email, pass);
+        logger.info(" - correctLogin test is ok");
 
     }
 
