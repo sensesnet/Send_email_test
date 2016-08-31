@@ -4,7 +4,7 @@ package com.Listener;
 import org.testng.TestListenerAdapter;
 
 public class MyListener extends TestListenerAdapter {
-//  i try to create own listener to connect screenshot with report
+//  i try to create listener to connect screenshot with report
 //    @Override
 //    public void onTestFailure(ITestResult tr) {
 //        String reportFolder = System.getProperty("user.dir")
