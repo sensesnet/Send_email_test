@@ -1,13 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
-
-<!--test name="LoginMailNegative">
-    <classes>
-        <class name="LogInTest.LogInNegativeTest"/>
-    </classes>
-</test> <!- LoginMail -->
-<!--/suite> <!- Default Suite -->
-
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="test Suite">
     <listeners>
@@ -36,4 +27,17 @@
             <class name="LogInTest.LogInNegativeTest"/>
         </classes>
     </test>
+    <!-- CheckInBoxMail -->
+    <test name="CheckInBoxMail">
+        <classes>
+            <class name="CheckInboxTest.CheckInboxTest"/>
+        </classes>
+    </test>
+    <!-- CheckOutBoxMail -->
+    <test name="CheckOutBoxMail">
+        <classes>
+            <class name="CheckOutboxTest.CheckOutboxTest"/>
+        </classes>
+    </test>
+
 </suite>
