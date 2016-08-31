@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="LoginMailNegative"
+           tests="5"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="36,753">
+  <properties />
+  
+  
+            <testcase name="withoutLogin" time="16,943" classname="LogInTest.LogInNegativeTest" />
+                <testcase name="invalidLogin" time="4,317" classname="LogInTest.LogInNegativeTest" />
+                <testcase name="withoutPassword" time="5,446" classname="LogInTest.LogInNegativeTest" />
+                <testcase name="invalidLoginPassword" time="4,830" classname="LogInTest.LogInNegativeTest" />
+                <testcase name="invalidPassword" time="5,217" classname="LogInTest.LogInNegativeTest" />
+      
+</testsuite>

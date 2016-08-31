@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="AppTest"
+           tests="10"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="262,342">
+  <properties />
+  
+  
+            <testcase name="correctLogin" time="25,565" classname="LogInTest.LogInChromeTest" />
+                <testcase name="correctLogin" time="39,117" classname="LogInTest.LogInChromeTest" />
+                <testcase name="correctLogin" time="9,358" classname="LogInTest.LogInChromeTest" />
+                <testcase name="correctLogin" time="11,503" classname="LogInTest.LogInChromeTest" />
+                <testcase name="correctLogin" time="28,566" classname="LogInTest.LogInChromeTest" />
+                <testcase name="correctLogin" time="7,604" classname="LogInTest.LogInChromeTest" />
+                <testcase name="correctLogin" time="36,345" classname="LogInTest.LogInChromeTest" />
+                <testcase name="correctLogin" time="33,949" classname="LogInTest.LogInChromeTest" />
+                <testcase name="correctLogin" time="35,590" classname="LogInTest.LogInChromeTest" />
+                <testcase name="correctLogin" time="34,745" classname="LogInTest.LogInChromeTest" />
+      
+</testsuite>

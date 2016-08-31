@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<!--test name="LoginMailNegative">
+    <classes>
+        <class name="LogInTest.LogInNegativeTest"/>
+    </classes>
+</test> <!- LoginMail -->
+<!--/suite> <!- Default Suite -->
+
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="test Suite">
+    <listeners>
+        <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+        <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+    </listeners>
+
+    <!-- SendMailTest -->
+    <test name="SendMail">
+        <classes>
+            <class name="SendEMailTest.SendMailTest"/>
+        </classes>
+    </test>
+
+    <!-- LoginMail -->
+    <test name="AppTest">
+        <parameter name="browser" value="firefox"></parameter>
+        <classes>
+            <class name="LogInTest.LogInChromeTest"></class>
+        </classes>
+    </test>
+
+    <!-- LoginMailNegative -->
+    <test name="LoginMailNegative">
+        <classes>
+            <class name="LogInTest.LogInNegativeTest"/>
+        </classes>
+    </test>
+</suite>
