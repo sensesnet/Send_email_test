@@ -1,161 +1,246 @@
-2016-08-29 01:14:49 INFO  SendMailTest:72 -  - open pdf 
-2016-08-29 01:14:49 INFO  SendMailTest:106 -  - start checkinboxtest
-2016-08-29 01:14:49 INFO  CheckingInbox:29 -  - try to check inbox folder, ger session
-2016-08-29 01:14:51 INFO  CheckingInbox:44 -  - try to open inbox folder
-2016-08-29 01:14:51 INFO  CheckingInbox:50 - ___step 3_check inbox mail___________
-2016-08-29 01:14:51 INFO  CheckingInbox:51 - Number of mails = 0
-2016-08-29 01:14:52 INFO  CheckingInbox:52 - Number of new mails = 0
-2016-08-29 01:14:52 INFO  CheckingInbox:53 - _____________________________________
-2016-08-29 01:14:52 INFO  CheckingInbox:69 -  - inbox folder was close
-2016-08-29 01:14:52 INFO  SendMailTest:110 -  - checkinboxtest is ok
-2016-08-29 01:14:52 INFO  SendMailTest:106 -  - start checkinboxtest
-2016-08-29 01:14:52 INFO  CheckingInbox:29 -  - try to check inbox folder, ger session
-2016-08-29 01:14:52 INFO  CheckingInbox:44 -  - try to open inbox folder
-2016-08-29 01:14:54 INFO  CheckingInbox:50 - ___step 3_check inbox mail___________
-2016-08-29 01:14:54 INFO  CheckingInbox:51 - Number of mails = 21
-2016-08-29 01:14:54 INFO  CheckingInbox:52 - Number of new mails = 21
-2016-08-29 01:14:54 INFO  CheckingInbox:53 - _____________________________________
-2016-08-29 01:14:54 INFO  CheckingInbox:69 -  - inbox folder was close
-2016-08-29 01:14:54 INFO  SendMailTest:110 -  - checkinboxtest is ok
-2016-08-29 01:14:54 INFO  SendMailTest:106 -  - start checkinboxtest
-2016-08-29 01:14:54 INFO  CheckingInbox:29 -  - try to check inbox folder, ger session
-2016-08-29 01:14:55 INFO  CheckingInbox:44 -  - try to open inbox folder
-2016-08-29 01:14:55 INFO  CheckingInbox:50 - ___step 3_check inbox mail___________
-2016-08-29 01:14:55 INFO  CheckingInbox:51 - Number of mails = 23
-2016-08-29 01:14:56 INFO  CheckingInbox:52 - Number of new mails = 23
-2016-08-29 01:14:56 INFO  CheckingInbox:53 - _____________________________________
-2016-08-29 01:14:56 INFO  CheckingInbox:69 -  - inbox folder was close
-2016-08-29 01:14:56 INFO  SendMailTest:110 -  - checkinboxtest is ok
-2016-08-29 01:14:56 INFO  SendMailTest:106 -  - start checkinboxtest
-2016-08-29 01:14:56 INFO  CheckingInbox:29 -  - try to check inbox folder, ger session
-2016-08-29 01:14:57 INFO  CheckingInbox:44 -  - try to open inbox folder
-2016-08-29 01:14:57 INFO  CheckingInbox:50 - ___step 3_check inbox mail___________
-2016-08-29 01:14:57 INFO  CheckingInbox:51 - Number of mails = 18
-2016-08-29 01:14:57 INFO  CheckingInbox:52 - Number of new mails = 18
-2016-08-29 01:14:57 INFO  CheckingInbox:53 - _____________________________________
-2016-08-29 01:14:57 INFO  CheckingInbox:69 -  - inbox folder was close
-2016-08-29 01:14:57 INFO  SendMailTest:110 -  - checkinboxtest is ok
-2016-08-29 01:14:57 INFO  SendMailTest:97 -  - start checkoutboxtest
-2016-08-29 01:14:57 INFO  CheckingOutbox:28 -  - try to check sent folder, ger session
-2016-08-29 01:14:58 INFO  CheckingOutbox:44 -  - try to open sent folder
-2016-08-29 01:14:59 INFO  CheckingOutbox:51 - ___step 2_check sent mail___________
-2016-08-29 01:14:59 INFO  CheckingOutbox:52 - Number of sent mails = 0
-2016-08-29 01:14:59 INFO  CheckingOutbox:53 - Number of new  mails = 0
-2016-08-29 01:14:59 INFO  CheckingOutbox:54 - ____________________________________
-2016-08-29 01:14:59 INFO  CheckingOutbox:69 -  - inbox folder was close
-2016-08-29 01:14:59 INFO  SendMailTest:101 -  - checkoutboxtest is ok
-2016-08-29 01:14:59 INFO  SendMailTest:97 -  - start checkoutboxtest
-2016-08-29 01:14:59 INFO  CheckingOutbox:28 -  - try to check sent folder, ger session
-2016-08-29 01:15:01 INFO  CheckingOutbox:44 -  - try to open sent folder
-2016-08-29 01:15:02 INFO  CheckingOutbox:51 - ___step 2_check sent mail___________
-2016-08-29 01:15:02 INFO  CheckingOutbox:52 - Number of sent mails = 2
-2016-08-29 01:15:03 INFO  CheckingOutbox:53 - Number of new  mails = 2
-2016-08-29 01:15:03 INFO  CheckingOutbox:54 - ____________________________________
-2016-08-29 01:15:03 INFO  CheckingOutbox:69 -  - inbox folder was close
-2016-08-29 01:15:03 INFO  SendMailTest:101 -  - checkoutboxtest is ok
-2016-08-29 01:15:03 INFO  SendMailTest:97 -  - start checkoutboxtest
-2016-08-29 01:15:03 INFO  CheckingOutbox:28 -  - try to check sent folder, ger session
-2016-08-29 01:15:05 INFO  CheckingOutbox:44 -  - try to open sent folder
-2016-08-29 01:15:06 INFO  CheckingOutbox:51 - ___step 2_check sent mail___________
-2016-08-29 01:15:06 INFO  CheckingOutbox:52 - Number of sent mails = 0
-2016-08-29 01:15:06 INFO  CheckingOutbox:53 - Number of new  mails = 0
-2016-08-29 01:15:06 INFO  CheckingOutbox:54 - ____________________________________
-2016-08-29 01:15:07 INFO  CheckingOutbox:69 -  - inbox folder was close
-2016-08-29 01:15:07 INFO  SendMailTest:101 -  - checkoutboxtest is ok
-2016-08-29 01:15:07 INFO  SendMailTest:97 -  - start checkoutboxtest
-2016-08-29 01:15:07 INFO  CheckingOutbox:28 -  - try to check sent folder, ger session
-2016-08-29 01:15:08 INFO  CheckingOutbox:44 -  - try to open sent folder
-2016-08-29 01:15:08 INFO  CheckingOutbox:51 - ___step 2_check sent mail___________
-2016-08-29 01:15:08 INFO  CheckingOutbox:52 - Number of sent mails = 0
-2016-08-29 01:15:08 INFO  CheckingOutbox:53 - Number of new  mails = 0
-2016-08-29 01:15:08 INFO  CheckingOutbox:54 - ____________________________________
-2016-08-29 01:15:08 INFO  CheckingOutbox:69 -  - inbox folder was close
-2016-08-29 01:15:08 INFO  SendMailTest:101 -  - checkoutboxtest is ok
-2016-08-29 01:15:08 INFO  SendMailTest:116 -  - start savetoDB
-2016-08-29 01:15:08 INFO  AccountDao:30 - - try to add account to DB
-2016-08-29 01:15:09 INFO  MLog:80 - MLog clients using log4j logging.
-2016-08-29 01:15:09 INFO  C3P0Registry:204 - Initializing c3p0-0.9.1.2 [built 21-May-2007 15:04:56; debug? true; trace: 10]
-2016-08-29 01:15:09 INFO  AbstractPoolBackedDataSource:462 - Initializing c3p0 pool... com.mchange.v2.c3p0.ComboPooledDataSource [ acquireIncrement -> 5, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, dataSourceName -> 1hgf2td9i1mnytgh19ekpiy|57d7f8ca, debugUnreturnedConnectionStackTraces -> false, description -> null, driverClass -> com.mysql.jdbc.Driver, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, identityToken -> 1hgf2td9i1mnytgh19ekpiy|57d7f8ca, idleConnectionTestPeriod -> 0, initialPoolSize -> 3, jdbcUrl -> jdbc:mysql://localhost:3306/accounts, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 0, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 20, maxStatements -> 180, maxStatementsPerConnection -> 0, minPoolSize -> 5, numHelperThreads -> 3, numThreadsAwaitingCheckoutDefaultUser -> 0, preferredTestQuery -> null, properties -> {user=******, password=******}, propertyCycle -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, usesTraditionalReflectiveProxies -> false ]
-2016-08-29 01:15:09 INFO  AccountDao:38 - - add account to DB
-2016-08-29 01:15:09 INFO  SendMailTest:122 -  -  savetoDB is ok
-2016-08-29 01:15:09 INFO  SendMailTest:116 -  - start savetoDB
-2016-08-29 01:15:09 INFO  AccountDao:30 - - try to add account to DB
-2016-08-29 01:15:10 INFO  AccountDao:38 - - add account to DB
-2016-08-29 01:15:10 INFO  SendMailTest:122 -  -  savetoDB is ok
-2016-08-29 01:15:10 INFO  SendMailTest:116 -  - start savetoDB
-2016-08-29 01:15:10 INFO  AccountDao:30 - - try to add account to DB
-2016-08-29 01:15:10 INFO  AccountDao:38 - - add account to DB
-2016-08-29 01:15:10 INFO  SendMailTest:122 -  -  savetoDB is ok
-2016-08-29 01:15:10 INFO  SendMailTest:116 -  - start savetoDB
-2016-08-29 01:15:10 INFO  AccountDao:30 - - try to add account to DB
-2016-08-29 01:15:10 INFO  AccountDao:38 - - add account to DB
-2016-08-29 01:15:10 INFO  SendMailTest:122 -  -  savetoDB is ok
-2016-08-29 01:15:10 INFO  SendMailTest:127 -  - start savetofile
-2016-08-29 01:15:10 INFO  SaveToCSV:20 -  - save in csv
-2016-08-29 01:15:10 INFO  SaveToCSV:21 -  - before we open the file check to see if it already exists
-2016-08-29 01:15:10 INFO  SaveToCSV:35 -  - write out a few records
-2016-08-29 01:15:10 INFO  SaveToCSV:42 -  - close file
-2016-08-29 01:15:10 INFO  SendMailTest:131 -  - savetofile is ok
-2016-08-29 01:15:10 INFO  SendMailTest:127 -  - start savetofile
-2016-08-29 01:15:10 INFO  SaveToCSV:20 -  - save in csv
-2016-08-29 01:15:10 INFO  SaveToCSV:21 -  - before we open the file check to see if it already exists
-2016-08-29 01:15:10 INFO  SaveToCSV:35 -  - write out a few records
-2016-08-29 01:15:10 INFO  SaveToCSV:42 -  - close file
-2016-08-29 01:15:10 INFO  SendMailTest:131 -  - savetofile is ok
-2016-08-29 01:15:10 INFO  SendMailTest:127 -  - start savetofile
-2016-08-29 01:15:10 INFO  SaveToCSV:20 -  - save in csv
-2016-08-29 01:15:10 INFO  SaveToCSV:21 -  - before we open the file check to see if it already exists
-2016-08-29 01:15:10 INFO  SaveToCSV:35 -  - write out a few records
-2016-08-29 01:15:10 INFO  SaveToCSV:42 -  - close file
-2016-08-29 01:15:10 INFO  SendMailTest:131 -  - savetofile is ok
-2016-08-29 01:15:10 INFO  SendMailTest:127 -  - start savetofile
-2016-08-29 01:15:10 INFO  SaveToCSV:20 -  - save in csv
-2016-08-29 01:15:10 INFO  SaveToCSV:21 -  - before we open the file check to see if it already exists
-2016-08-29 01:15:10 INFO  SaveToCSV:35 -  - write out a few records
-2016-08-29 01:15:10 INFO  SaveToCSV:42 -  - close file
-2016-08-29 01:15:10 INFO  SendMailTest:131 -  - savetofile is ok
-2016-08-29 01:15:10 INFO  SendMailTest:83 -  - start sendmailtest
-2016-08-29 01:15:10 INFO  Sender:34 - -try to send email
-2016-08-29 01:15:10 INFO  Sender:43 - -get session successfully
-2016-08-29 01:15:11 INFO  Sender:54 - -sent message successfully
-2016-08-29 01:15:11 INFO  Sender:68 - -try to save msg to sent folder
-2016-08-29 01:15:15 INFO  Sender:73 - -try to open sent folder
-2016-08-29 01:15:18 INFO  Sender:79 - -folder was open
-2016-08-29 01:15:20 INFO  Sender:81 - -msg was save
-2016-08-29 01:15:20 INFO  Sender:82 - Msg send and saved ....
-2016-08-29 01:15:20 INFO  Sender:83 - ________________________________
-2016-08-29 01:15:20 INFO  SendMailTest:91 -  - sendmailtest is ok
-2016-08-29 01:15:20 INFO  SendMailTest:83 -  - start sendmailtest
-2016-08-29 01:15:20 INFO  Sender:34 - -try to send email
-2016-08-29 01:15:20 INFO  Sender:43 - -get session successfully
-2016-08-29 01:15:22 INFO  Sender:54 - -sent message successfully
-2016-08-29 01:15:22 INFO  Sender:68 - -try to save msg to sent folder
-2016-08-29 01:15:23 INFO  Sender:73 - -try to open sent folder
-2016-08-29 01:15:24 INFO  Sender:79 - -folder was open
-2016-08-29 01:15:24 INFO  Sender:81 - -msg was save
-2016-08-29 01:15:24 INFO  Sender:82 - Msg send and saved ....
-2016-08-29 01:15:24 INFO  Sender:83 - ________________________________
-2016-08-29 01:15:24 INFO  SendMailTest:91 -  - sendmailtest is ok
-2016-08-29 01:15:24 INFO  SendMailTest:83 -  - start sendmailtest
-2016-08-29 01:15:24 INFO  Sender:34 - -try to send email
-2016-08-29 01:15:24 INFO  Sender:43 - -get session successfully
-2016-08-29 01:15:26 INFO  Sender:54 - -sent message successfully
-2016-08-29 01:15:26 INFO  Sender:68 - -try to save msg to sent folder
-2016-08-29 01:15:27 INFO  Sender:73 - -try to open sent folder
-2016-08-29 01:15:27 INFO  Sender:79 - -folder was open
-2016-08-29 01:15:28 INFO  Sender:81 - -msg was save
-2016-08-29 01:15:28 INFO  Sender:82 - Msg send and saved ....
-2016-08-29 01:15:28 INFO  Sender:83 - ________________________________
-2016-08-29 01:15:28 INFO  SendMailTest:91 -  - sendmailtest is ok
-2016-08-29 01:15:28 INFO  SendMailTest:83 -  - start sendmailtest
-2016-08-29 01:15:28 INFO  Sender:34 - -try to send email
-2016-08-29 01:15:28 INFO  Sender:43 - -get session successfully
-2016-08-29 01:15:29 INFO  Sender:54 - -sent message successfully
-2016-08-29 01:15:29 INFO  Sender:68 - -try to save msg to sent folder
-2016-08-29 01:15:30 INFO  Sender:73 - -try to open sent folder
-2016-08-29 01:15:31 INFO  Sender:79 - -folder was open
-2016-08-29 01:15:31 INFO  Sender:81 - -msg was save
-2016-08-29 01:15:31 INFO  Sender:82 - Msg send and saved ....
-2016-08-29 01:15:31 INFO  Sender:83 - ________________________________
-2016-08-29 01:15:31 INFO  SendMailTest:91 -  - sendmailtest is ok
-2016-08-29 01:15:31 INFO  SendMailTest:78 -  - crt pdf 
+2016-09-01 01:14:52 INFO  SendMailTest:67 -  - open pdf 
+2016-09-01 01:14:52 INFO  SendMailTest:101 -  - start checkinboxtest
+2016-09-01 01:14:52 INFO  CheckingInbox:29 -  - try to check inbox folder, ger session
+2016-09-01 01:14:54 INFO  CheckingInbox:44 -  - try to open inbox folder
+2016-09-01 01:14:55 INFO  CheckingInbox:50 - ___step 3_check inbox mail___________
+2016-09-01 01:14:55 INFO  CheckingInbox:51 - Number of mails = 0
+2016-09-01 01:14:55 INFO  CheckingInbox:52 - Number of new mails = 0
+2016-09-01 01:14:55 INFO  CheckingInbox:53 - _____________________________________
+2016-09-01 01:14:55 INFO  CheckingInbox:69 -  - inbox folder was close
+2016-09-01 01:14:55 INFO  SendMailTest:105 -  - checkinboxtest is ok
+2016-09-01 01:14:55 INFO  SendMailTest:101 -  - start checkinboxtest
+2016-09-01 01:14:55 INFO  CheckingInbox:29 -  - try to check inbox folder, ger session
+2016-09-01 01:14:56 INFO  CheckingInbox:44 -  - try to open inbox folder
+2016-09-01 01:14:59 INFO  CheckingInbox:50 - ___step 3_check inbox mail___________
+2016-09-01 01:14:59 INFO  CheckingInbox:51 - Number of mails = 22
+2016-09-01 01:14:59 INFO  CheckingInbox:52 - Number of new mails = 22
+2016-09-01 01:14:59 INFO  CheckingInbox:53 - _____________________________________
+2016-09-01 01:14:59 INFO  CheckingInbox:69 -  - inbox folder was close
+2016-09-01 01:14:59 INFO  SendMailTest:105 -  - checkinboxtest is ok
+2016-09-01 01:14:59 INFO  SendMailTest:101 -  - start checkinboxtest
+2016-09-01 01:14:59 INFO  CheckingInbox:29 -  - try to check inbox folder, ger session
+2016-09-01 01:15:00 INFO  CheckingInbox:44 -  - try to open inbox folder
+2016-09-01 01:15:01 INFO  CheckingInbox:50 - ___step 3_check inbox mail___________
+2016-09-01 01:15:01 INFO  CheckingInbox:51 - Number of mails = 24
+2016-09-01 01:15:01 INFO  CheckingInbox:52 - Number of new mails = 24
+2016-09-01 01:15:01 INFO  CheckingInbox:53 - _____________________________________
+2016-09-01 01:15:01 INFO  CheckingInbox:69 -  - inbox folder was close
+2016-09-01 01:15:01 INFO  SendMailTest:105 -  - checkinboxtest is ok
+2016-09-01 01:15:01 INFO  SendMailTest:101 -  - start checkinboxtest
+2016-09-01 01:15:01 INFO  CheckingInbox:29 -  - try to check inbox folder, ger session
+2016-09-01 01:15:02 INFO  CheckingInbox:44 -  - try to open inbox folder
+2016-09-01 01:15:03 INFO  CheckingInbox:50 - ___step 3_check inbox mail___________
+2016-09-01 01:15:03 INFO  CheckingInbox:51 - Number of mails = 19
+2016-09-01 01:15:03 INFO  CheckingInbox:52 - Number of new mails = 19
+2016-09-01 01:15:03 INFO  CheckingInbox:53 - _____________________________________
+2016-09-01 01:15:04 INFO  CheckingInbox:69 -  - inbox folder was close
+2016-09-01 01:15:04 INFO  SendMailTest:105 -  - checkinboxtest is ok
+2016-09-01 01:15:04 INFO  SendMailTest:92 -  - start checkoutboxtest
+2016-09-01 01:15:04 INFO  CheckingOutbox:28 -  - try to check sent folder, ger session
+2016-09-01 01:15:05 INFO  CheckingOutbox:44 -  - try to open sent folder
+2016-09-01 01:15:05 INFO  CheckingOutbox:51 - ___step 2_check sent mail___________
+2016-09-01 01:15:05 INFO  CheckingOutbox:52 - Number of sent mails = 0
+2016-09-01 01:15:05 INFO  CheckingOutbox:53 - Number of new  mails = 0
+2016-09-01 01:15:05 INFO  CheckingOutbox:54 - ____________________________________
+2016-09-01 01:15:05 INFO  CheckingOutbox:69 -  - inbox folder was close
+2016-09-01 01:15:05 INFO  SendMailTest:96 -  - checkoutboxtest is ok
+2016-09-01 01:15:05 INFO  SendMailTest:92 -  - start checkoutboxtest
+2016-09-01 01:15:05 INFO  CheckingOutbox:28 -  - try to check sent folder, ger session
+2016-09-01 01:15:06 INFO  CheckingOutbox:44 -  - try to open sent folder
+2016-09-01 01:15:07 INFO  CheckingOutbox:51 - ___step 2_check sent mail___________
+2016-09-01 01:15:07 INFO  CheckingOutbox:52 - Number of sent mails = 2
+2016-09-01 01:15:07 INFO  CheckingOutbox:53 - Number of new  mails = 2
+2016-09-01 01:15:07 INFO  CheckingOutbox:54 - ____________________________________
+2016-09-01 01:15:07 INFO  CheckingOutbox:69 -  - inbox folder was close
+2016-09-01 01:15:07 INFO  SendMailTest:96 -  - checkoutboxtest is ok
+2016-09-01 01:15:07 INFO  SendMailTest:92 -  - start checkoutboxtest
+2016-09-01 01:15:07 INFO  CheckingOutbox:28 -  - try to check sent folder, ger session
+2016-09-01 01:15:08 INFO  CheckingOutbox:44 -  - try to open sent folder
+2016-09-01 01:15:09 INFO  CheckingOutbox:51 - ___step 2_check sent mail___________
+2016-09-01 01:15:09 INFO  CheckingOutbox:52 - Number of sent mails = 0
+2016-09-01 01:15:09 INFO  CheckingOutbox:53 - Number of new  mails = 0
+2016-09-01 01:15:09 INFO  CheckingOutbox:54 - ____________________________________
+2016-09-01 01:15:09 INFO  CheckingOutbox:69 -  - inbox folder was close
+2016-09-01 01:15:09 INFO  SendMailTest:96 -  - checkoutboxtest is ok
+2016-09-01 01:15:09 INFO  SendMailTest:92 -  - start checkoutboxtest
+2016-09-01 01:15:09 INFO  CheckingOutbox:28 -  - try to check sent folder, ger session
+2016-09-01 01:15:10 INFO  CheckingOutbox:44 -  - try to open sent folder
+2016-09-01 01:15:10 INFO  CheckingOutbox:51 - ___step 2_check sent mail___________
+2016-09-01 01:15:10 INFO  CheckingOutbox:52 - Number of sent mails = 0
+2016-09-01 01:15:11 INFO  CheckingOutbox:53 - Number of new  mails = 0
+2016-09-01 01:15:11 INFO  CheckingOutbox:54 - ____________________________________
+2016-09-01 01:15:11 INFO  CheckingOutbox:69 -  - inbox folder was close
+2016-09-01 01:15:11 INFO  SendMailTest:96 -  - checkoutboxtest is ok
+2016-09-01 01:15:11 INFO  SendMailTest:111 -  - start savetoDB
+2016-09-01 01:15:11 INFO  AccountDao:30 - - try to add account to DB
+2016-09-01 01:15:11 INFO  MLog:80 - MLog clients using log4j logging.
+2016-09-01 01:15:11 INFO  C3P0Registry:204 - Initializing c3p0-0.9.1.2 [built 21-May-2007 15:04:56; debug? true; trace: 10]
+2016-09-01 01:15:11 INFO  AbstractPoolBackedDataSource:462 - Initializing c3p0 pool... com.mchange.v2.c3p0.ComboPooledDataSource [ acquireIncrement -> 5, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, dataSourceName -> 1hgf2td9i1qyaf9e1fsgrda|644baf4a, debugUnreturnedConnectionStackTraces -> false, description -> null, driverClass -> com.mysql.jdbc.Driver, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, identityToken -> 1hgf2td9i1qyaf9e1fsgrda|644baf4a, idleConnectionTestPeriod -> 0, initialPoolSize -> 3, jdbcUrl -> jdbc:mysql://localhost:3306/accounts, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 0, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 20, maxStatements -> 180, maxStatementsPerConnection -> 0, minPoolSize -> 5, numHelperThreads -> 3, numThreadsAwaitingCheckoutDefaultUser -> 0, preferredTestQuery -> null, properties -> {user=******, password=******}, propertyCycle -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, usesTraditionalReflectiveProxies -> false ]
+2016-09-01 01:15:12 INFO  AccountDao:38 - - add account to DB
+2016-09-01 01:15:12 INFO  SendMailTest:117 -  -  savetoDB is ok
+2016-09-01 01:15:12 INFO  SendMailTest:111 -  - start savetoDB
+2016-09-01 01:15:12 INFO  AccountDao:30 - - try to add account to DB
+2016-09-01 01:15:12 INFO  AccountDao:38 - - add account to DB
+2016-09-01 01:15:12 INFO  SendMailTest:117 -  -  savetoDB is ok
+2016-09-01 01:15:12 INFO  SendMailTest:111 -  - start savetoDB
+2016-09-01 01:15:12 INFO  AccountDao:30 - - try to add account to DB
+2016-09-01 01:15:12 INFO  AccountDao:38 - - add account to DB
+2016-09-01 01:15:12 INFO  SendMailTest:117 -  -  savetoDB is ok
+2016-09-01 01:15:12 INFO  SendMailTest:111 -  - start savetoDB
+2016-09-01 01:15:12 INFO  AccountDao:30 - - try to add account to DB
+2016-09-01 01:15:12 INFO  AccountDao:38 - - add account to DB
+2016-09-01 01:15:12 INFO  SendMailTest:117 -  -  savetoDB is ok
+2016-09-01 01:15:12 INFO  SendMailTest:122 -  - start savetofile
+2016-09-01 01:15:12 INFO  SaveToCSV:20 -  - save in csv
+2016-09-01 01:15:12 INFO  SaveToCSV:21 -  - before we open the file check to see if it already exists
+2016-09-01 01:15:12 INFO  SaveToCSV:35 -  - write out a few records
+2016-09-01 01:15:12 INFO  SaveToCSV:42 -  - close file
+2016-09-01 01:15:12 INFO  SendMailTest:126 -  - savetofile is ok
+2016-09-01 01:15:12 INFO  SendMailTest:122 -  - start savetofile
+2016-09-01 01:15:12 INFO  SaveToCSV:20 -  - save in csv
+2016-09-01 01:15:12 INFO  SaveToCSV:21 -  - before we open the file check to see if it already exists
+2016-09-01 01:15:12 INFO  SaveToCSV:35 -  - write out a few records
+2016-09-01 01:15:12 INFO  SaveToCSV:42 -  - close file
+2016-09-01 01:15:12 INFO  SendMailTest:126 -  - savetofile is ok
+2016-09-01 01:15:12 INFO  SendMailTest:122 -  - start savetofile
+2016-09-01 01:15:12 INFO  SaveToCSV:20 -  - save in csv
+2016-09-01 01:15:12 INFO  SaveToCSV:21 -  - before we open the file check to see if it already exists
+2016-09-01 01:15:12 INFO  SaveToCSV:35 -  - write out a few records
+2016-09-01 01:15:12 INFO  SaveToCSV:42 -  - close file
+2016-09-01 01:15:12 INFO  SendMailTest:126 -  - savetofile is ok
+2016-09-01 01:15:12 INFO  SendMailTest:122 -  - start savetofile
+2016-09-01 01:15:12 INFO  SaveToCSV:20 -  - save in csv
+2016-09-01 01:15:12 INFO  SaveToCSV:21 -  - before we open the file check to see if it already exists
+2016-09-01 01:15:12 INFO  SaveToCSV:35 -  - write out a few records
+2016-09-01 01:15:12 INFO  SaveToCSV:42 -  - close file
+2016-09-01 01:15:12 INFO  SendMailTest:126 -  - savetofile is ok
+2016-09-01 01:15:12 INFO  SendMailTest:78 -  - start sendmailtest
+2016-09-01 01:15:12 INFO  Sender:34 - -try to send email
+2016-09-01 01:15:12 INFO  Sender:43 - -get session successfully
+2016-09-01 01:15:13 INFO  Sender:54 - -sent message successfully
+2016-09-01 01:15:13 INFO  Sender:68 - -try to save msg to sent folder
+2016-09-01 01:15:14 INFO  Sender:73 - -try to open sent folder
+2016-09-01 01:15:15 INFO  Sender:79 - -folder was open
+2016-09-01 01:15:15 INFO  Sender:81 - -msg was save
+2016-09-01 01:15:15 INFO  Sender:82 - Msg send and saved ....
+2016-09-01 01:15:15 INFO  Sender:83 - ________________________________
+2016-09-01 01:15:15 INFO  SendMailTest:86 -  - sendmailtest is ok
+2016-09-01 01:15:15 INFO  SendMailTest:78 -  - start sendmailtest
+2016-09-01 01:15:15 INFO  Sender:34 - -try to send email
+2016-09-01 01:15:15 INFO  Sender:43 - -get session successfully
+2016-09-01 01:15:17 INFO  Sender:54 - -sent message successfully
+2016-09-01 01:15:17 INFO  Sender:68 - -try to save msg to sent folder
+2016-09-01 01:15:17 INFO  Sender:73 - -try to open sent folder
+2016-09-01 01:15:18 INFO  Sender:79 - -folder was open
+2016-09-01 01:15:18 INFO  Sender:81 - -msg was save
+2016-09-01 01:15:18 INFO  Sender:82 - Msg send and saved ....
+2016-09-01 01:15:18 INFO  Sender:83 - ________________________________
+2016-09-01 01:15:18 INFO  SendMailTest:86 -  - sendmailtest is ok
+2016-09-01 01:15:18 INFO  SendMailTest:78 -  - start sendmailtest
+2016-09-01 01:15:18 INFO  Sender:34 - -try to send email
+2016-09-01 01:15:18 INFO  Sender:43 - -get session successfully
+2016-09-01 01:15:20 INFO  Sender:54 - -sent message successfully
+2016-09-01 01:15:20 INFO  Sender:68 - -try to save msg to sent folder
+2016-09-01 01:15:21 INFO  Sender:73 - -try to open sent folder
+2016-09-01 01:15:21 INFO  Sender:79 - -folder was open
+2016-09-01 01:15:22 INFO  Sender:81 - -msg was save
+2016-09-01 01:15:22 INFO  Sender:82 - Msg send and saved ....
+2016-09-01 01:15:22 INFO  Sender:83 - ________________________________
+2016-09-01 01:15:22 INFO  SendMailTest:86 -  - sendmailtest is ok
+2016-09-01 01:15:22 INFO  SendMailTest:78 -  - start sendmailtest
+2016-09-01 01:15:22 INFO  Sender:34 - -try to send email
+2016-09-01 01:15:22 INFO  Sender:43 - -get session successfully
+2016-09-01 01:15:23 INFO  Sender:54 - -sent message successfully
+2016-09-01 01:15:23 INFO  Sender:68 - -try to save msg to sent folder
+2016-09-01 01:15:24 INFO  Sender:73 - -try to open sent folder
+2016-09-01 01:15:24 INFO  Sender:79 - -folder was open
+2016-09-01 01:15:25 INFO  Sender:81 - -msg was save
+2016-09-01 01:15:25 INFO  Sender:82 - Msg send and saved ....
+2016-09-01 01:15:25 INFO  Sender:83 - ________________________________
+2016-09-01 01:15:25 INFO  SendMailTest:86 -  - sendmailtest is ok
+2016-09-01 01:15:25 INFO  SendMailTest:73 -  - crt pdf 
+2016-09-01 01:15:25 INFO  LogInChromeTest:39 -  - start correctLogin test
+2016-09-01 01:15:25 INFO  LogIn:23 -  - try to open chrome
+2016-09-01 01:15:48 INFO  LogIn:25 -  - try to set accounts
+2016-09-01 01:15:48 INFO  LogIn:35 -  - try to open account
+2016-09-01 01:15:59 INFO  LogIn:40 -  - test is ok 
+2016-09-01 01:16:00 INFO  LogInChromeTest:41 -  - correctLogin test is ok
+2016-09-01 01:16:00 INFO  LogInChromeTest:39 -  - start correctLogin test
+2016-09-01 01:16:00 INFO  LogIn:23 -  - try to open chrome
+2016-09-01 01:16:22 INFO  LogIn:25 -  - try to set accounts
+2016-09-01 01:16:23 INFO  LogIn:35 -  - try to open account
+2016-09-01 01:16:32 INFO  LogIn:40 -  - test is ok 
+2016-09-01 01:16:34 INFO  LogInChromeTest:41 -  - correctLogin test is ok
+2016-09-01 01:16:34 INFO  LogInChromeTest:39 -  - start correctLogin test
+2016-09-01 01:16:34 INFO  LogIn:23 -  - try to open chrome
+2016-09-01 01:16:52 INFO  LogIn:25 -  - try to set accounts
+2016-09-01 01:16:52 INFO  LogIn:35 -  - try to open account
+2016-09-01 01:16:59 INFO  LogIn:40 -  - test is ok 
+2016-09-01 01:16:59 INFO  LogInChromeTest:41 -  - correctLogin test is ok
+2016-09-01 01:16:59 INFO  LogInChromeTest:39 -  - start correctLogin test
+2016-09-01 01:16:59 INFO  LogIn:23 -  - try to open chrome
+2016-09-01 01:17:20 INFO  LogIn:25 -  - try to set accounts
+2016-09-01 01:17:20 INFO  LogIn:35 -  - try to open account
+2016-09-01 01:17:28 INFO  LogIn:40 -  - test is ok 
+2016-09-01 01:17:28 INFO  LogInChromeTest:41 -  - correctLogin test is ok
+2016-09-01 01:17:28 INFO  LogInChromeTest:39 -  - start correctLogin test
+2016-09-01 01:17:28 INFO  LogIn:23 -  - try to open chrome
+2016-09-01 01:17:53 INFO  LogIn:25 -  - try to set accounts
+2016-09-01 01:17:54 INFO  LogIn:35 -  - try to open account
+2016-09-01 01:18:05 INFO  LogIn:40 -  - test is ok 
+2016-09-01 01:18:07 INFO  LogInChromeTest:41 -  - correctLogin test is ok
+2016-09-01 01:18:07 INFO  LogInChromeTest:39 -  - start correctLogin test
+2016-09-01 01:18:07 INFO  LogIn:23 -  - try to open chrome
+2016-09-01 01:18:33 INFO  LogIn:25 -  - try to set accounts
+2016-09-01 01:18:33 INFO  LogIn:35 -  - try to open account
+2016-09-01 01:18:41 INFO  LogIn:40 -  - test is ok 
+2016-09-01 01:18:42 INFO  LogInChromeTest:41 -  - correctLogin test is ok
+2016-09-01 01:18:42 INFO  LogInChromeTest:39 -  - start correctLogin test
+2016-09-01 01:18:42 INFO  LogIn:23 -  - try to open chrome
+2016-09-01 01:19:10 INFO  LogIn:25 -  - try to set accounts
+2016-09-01 01:19:11 INFO  LogIn:35 -  - try to open account
+2016-09-01 01:19:15 INFO  LogIn:40 -  - test is ok 
+2016-09-01 01:19:19 INFO  LogInChromeTest:41 -  - correctLogin test is ok
+2016-09-01 01:19:19 INFO  LogInChromeTest:39 -  - start correctLogin test
+2016-09-01 01:19:19 INFO  LogIn:23 -  - try to open chrome
+2016-09-01 01:19:24 INFO  LogIn:25 -  - try to set accounts
+2016-09-01 01:19:24 INFO  LogIn:35 -  - try to open account
+2016-09-01 01:19:27 INFO  LogIn:40 -  - test is ok 
+2016-09-01 01:19:28 INFO  LogInChromeTest:41 -  - correctLogin test is ok
+2016-09-01 01:19:28 INFO  LogInChromeTest:39 -  - start correctLogin test
+2016-09-01 01:19:28 INFO  LogIn:23 -  - try to open chrome
+2016-09-01 01:19:35 INFO  LogIn:25 -  - try to set accounts
+2016-09-01 01:19:35 INFO  LogIn:35 -  - try to open account
+2016-09-01 01:19:38 INFO  LogIn:40 -  - test is ok 
+2016-09-01 01:19:40 INFO  LogInChromeTest:41 -  - correctLogin test is ok
+2016-09-01 01:19:40 INFO  LogInChromeTest:39 -  - start correctLogin test
+2016-09-01 01:19:40 INFO  LogIn:23 -  - try to open chrome
+2016-09-01 01:19:43 INFO  LogIn:25 -  - try to set accounts
+2016-09-01 01:19:43 INFO  LogIn:35 -  - try to open account
+2016-09-01 01:19:46 INFO  LogIn:40 -  - test is ok 
+2016-09-01 01:19:47 INFO  LogInChromeTest:41 -  - correctLogin test is ok
+2016-09-01 01:19:47 INFO  LogInNegative:44 -  - negative test invalid log&pass 
+2016-09-01 01:19:47 INFO  LogInNegative:47 -  - try to open chrome 
+2016-09-01 01:19:50 INFO  LogInNegative:49 -  - try to set account 
+2016-09-01 01:19:50 INFO  LogInNegative:59 -  - try to open account 
+2016-09-01 01:19:50 INFO  LogInNegative:64 -  - test is ok 
+2016-09-01 01:19:52 INFO  LogInNegative:44 -  - negative test invalid log&pass 
+2016-09-01 01:19:52 INFO  LogInNegative:47 -  - try to open chrome 
+2016-09-01 01:19:54 INFO  LogInNegative:49 -  - try to set account 
+2016-09-01 01:19:55 INFO  LogInNegative:59 -  - try to open account 
+2016-09-01 01:19:55 INFO  LogInNegative:64 -  - test is ok 
+2016-09-01 01:19:56 INFO  LogInNegative:44 -  - negative test invalid log&pass 
+2016-09-01 01:19:56 INFO  LogInNegative:47 -  - try to open chrome 
+2016-09-01 01:20:00 INFO  LogInNegative:49 -  - try to set account 
+2016-09-01 01:20:00 INFO  LogInNegative:59 -  - try to open account 
+2016-09-01 01:20:00 INFO  LogInNegative:64 -  - test is ok 
+2016-09-01 01:20:02 INFO  LogInNegative:21 -  - negative test without log&pass 
+2016-09-01 01:20:02 INFO  LogInNegative:24 -  - try to open chrome 
+2016-09-01 01:20:04 INFO  LogInNegative:26 -  - try to set account 
+2016-09-01 01:20:04 INFO  LogInNegative:36 -  - try to open account 
+2016-09-01 01:20:04 INFO  LogInNegative:39 -  - test is ok 
+2016-09-01 01:20:19 INFO  LogInNegative:21 -  - negative test without log&pass 
+2016-09-01 01:20:19 INFO  LogInNegative:24 -  - try to open chrome 
+2016-09-01 01:20:21 INFO  LogInNegative:26 -  - try to set account 
+2016-09-01 01:20:21 INFO  LogInNegative:36 -  - try to open account 
+2016-09-01 01:20:21 INFO  LogInNegative:39 -  - test is ok 

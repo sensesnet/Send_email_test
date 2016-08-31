@@ -87,16 +87,44 @@
             <artifactId>selenium-server</artifactId>
             <version>2.39.0</version>
         </dependency-->
-        <dependency>
-            <groupId>org.seleniumhq.selenium</groupId>
-            <artifactId>selenium-firefox-driver</artifactId>
-            <version>2.44.0</version>
-        </dependency>
         <!--dependency>
             <groupId>org.apache.httpcomponents</groupId>
             <artifactId>httpcore</artifactId>
             <version>4.2.3</version>
         </dependency-->
+
+        <!-- reportng -->
+        <dependency>
+            <groupId>org.uncommons</groupId>
+            <artifactId>reportng</artifactId>
+            <version>1.1.4</version>
+            <scope>test</scope>
+            <exclusions>
+                <exclusion>
+                    <groupId>org.testng</groupId>
+                    <artifactId>testng</artifactId>
+                </exclusion>
+            </exclusions>
+        </dependency>
+        <dependency>
+            <groupId>velocity</groupId>
+            <artifactId>velocity</artifactId>
+            <version>1.4</version>
+            <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>com.google.inject</groupId>
+            <artifactId>guice</artifactId>
+            <version>3.0</version>
+            <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.maven.plugins</groupId>
+            <artifactId>maven-surefire-plugin</artifactId>
+            <version>2.18.1</version>
+            <type>maven-plugin</type>
+        </dependency>
+
 
     </dependencies>
 
@@ -116,7 +144,7 @@
                 </configuration>
             </plugin>
 
-            <plugin>
+            <!--plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-surefire-plugin</artifactId>
                 <version>2.5</version>
@@ -125,11 +153,45 @@
                         <org.uncommons.reportng.escape-output>false</org.uncommons.reportng.escape-output>
                     </systemPropertyVariables>
                 </configuration>
-            </plugin>
+            </plugin-->
 
 
         </plugins>
     </build>
+
+    <profiles>
+        <profile>
+            <id>SendMail</id>
+            <build>
+                <plugins>
+                    <plugin>
+                        <groupId>org.apache.maven.plugins</groupId>
+                        <artifactId>maven-surefire-plugin</artifactId>
+                        <version>2.18.1</version>
+                        <configuration>
+                            <properties>
+                                <property>
+                                    <name>usedefaultlisteners</name>
+                                    <value>false</value>
+                                </property>
+                                <property>
+                                    <name>listener</name>
+                                    <value>org.uncommons.reportng.HTMLReporter,
+                                        org.uncommons.reportng.JUnitXMLReporter
+                                    </value>
+                                </property>
+                            </properties>
+                            <suiteXmlFiles>
+                                <suiteXmlFile>SendMail.xml</suiteXmlFile>
+                            </suiteXmlFiles>
+                        </configuration>
+                    </plugin>
+                </plugins>
+            </build>
+        </profile>
+
+
+    </profiles>
 
 
 </project>
