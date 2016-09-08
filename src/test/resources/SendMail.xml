@@ -14,8 +14,7 @@
     </test>
 
     <!-- LoginMail -->
-    <test name="AppTest">
-        <parameter name="browser" value="firefox"></parameter>
+    <test name="LoginMail">
         <classes>
             <class name="LogInTest.LogInChromeTest"></class>
         </classes>

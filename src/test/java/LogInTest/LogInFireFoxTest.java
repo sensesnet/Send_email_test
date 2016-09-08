@@ -1,6 +1,6 @@
 package LogInTest;
 
-import com.WebDriver.LogIn.LogIn;
+import com.webDriver.LogIn.LogIn;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 

@@ -1,6 +1,6 @@
 package CheckInboxTest;
 
-import com.WebDriver.CheckInbox.CheckInBox;
+import com.webDriver.CheckInbox.CheckInBox;
 import org.apache.log4j.Logger;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;

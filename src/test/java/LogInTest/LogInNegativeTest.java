@@ -1,6 +1,6 @@
 package LogInTest;
 
-import com.WebDriver.LogIn.LogInNegative;
+import com.webDriver.LogIn.LogInNegative;
 import org.testng.annotations.Test;
 
 import java.io.IOException;

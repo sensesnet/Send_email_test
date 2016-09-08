@@ -1,4 +1,4 @@
-package com.WebDriver.Contacts;
+package com.webDriver.Contacts;
 
 /**
  * Created by KIRILL on 23.08.2016.

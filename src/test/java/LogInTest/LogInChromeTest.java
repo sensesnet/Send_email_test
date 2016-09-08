@@ -1,11 +1,11 @@
 package LogInTest;
 
 /**
- * Log in to acc1 from UI. Check e-mail in Sent present  (WebDriver)
- * Log in to acc2 from UI. Check e-mail in Inbox (WebDriver)
+ * Log in to acc1 from UI. Check e-mail in Sent present  (webDriver)
+ * Log in to acc2 from UI. Check e-mail in Inbox (webDriver)
  */
 
-import com.WebDriver.LogIn.LogIn;
+import com.webDriver.LogIn.LogIn;
 import org.apache.log4j.Logger;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;

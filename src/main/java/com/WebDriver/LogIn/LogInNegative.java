@@ -1,7 +1,7 @@
-package com.WebDriver.LogIn;
+package com.webDriver.LogIn;
 
-import com.WebDriver.Contacts.Contacts;
-import com.WebDriver.WebDrivers.WebDrivers;
+import com.webDriver.Contacts.Contacts;
+import com.webDriver.WebDrivers.WebDrivers;
 import org.apache.log4j.Logger;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
