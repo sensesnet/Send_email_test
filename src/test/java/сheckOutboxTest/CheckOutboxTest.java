@@ -1,6 +1,6 @@
 package сheckOutboxTest;
 
-import com.webDriver.CheckOutbox.CheckOutbox;
+import com.webDriver.сheckOutbox.CheckOutbox;
 import org.apache.log4j.Logger;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
