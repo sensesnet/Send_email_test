@@ -9,33 +9,33 @@
     <!-- SendMailTest -->
     <test name="SendMail">
         <classes>
-            <class name="SendEMailTest.SendMailTest"/>
+            <class name="sendEMailTest.SendMailTest"/>
         </classes>
     </test>
 
     <!-- LoginMail -->
     <test name="LoginMail">
         <classes>
-            <class name="LogInTest.LogInChromeTest"></class>
+            <class name="logInTest.LogInChromeTest"></class>
         </classes>
     </test>
 
     <!-- LoginMailNegative -->
     <test name="LoginMailNegative">
         <classes>
-            <class name="LogInTest.LogInNegativeTest"/>
+            <class name="logInTest.LogInNegativeTest"/>
         </classes>
     </test>
     <!-- CheckInBoxMail -->
     <test name="CheckInBoxMail">
         <classes>
-            <class name="CheckInboxTest.CheckInboxTest"/>
+            <class name="сheckInboxTest.CheckInboxTest"/>
         </classes>
     </test>
     <!-- CheckOutBoxMail -->
     <test name="CheckOutBoxMail">
         <classes>
-            <class name="CheckOutboxTest.CheckOutboxTest"/>
+            <class name="сheckOutboxTest.CheckOutboxTest"/>
         </classes>
     </test>
 

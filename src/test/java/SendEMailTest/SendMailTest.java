@@ -1,4 +1,4 @@
-package SendEMailTest;
+package sendEMailTest;
 
 
 import com.createReport.CreateReport;

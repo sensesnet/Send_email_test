@@ -8,25 +8,25 @@
   <properties />
   
   
-            <testcase name="checkoutboxtest" time="1,764" classname="SendEMailTest.SendMailTest" />
-                <testcase name="sendmailtest" time="3,138" classname="SendEMailTest.SendMailTest" />
-                <testcase name="sendmailtest" time="3,182" classname="SendEMailTest.SendMailTest" />
-                <testcase name="savetoDB" time="1,214" classname="SendEMailTest.SendMailTest" />
-                <testcase name="checkoutboxtest" time="1,729" classname="SendEMailTest.SendMailTest" />
-                <testcase name="checkinboxtest" time="2,606" classname="SendEMailTest.SendMailTest" />
-                <testcase name="savetoDB" time="0,012" classname="SendEMailTest.SendMailTest" />
-                <testcase name="savetofile" time="0,014" classname="SendEMailTest.SendMailTest" />
-                <testcase name="sendmailtest" time="3,322" classname="SendEMailTest.SendMailTest" />
-                <testcase name="checkinboxtest" time="4,262" classname="SendEMailTest.SendMailTest" />
-                <testcase name="savetofile" time="0,004" classname="SendEMailTest.SendMailTest" />
-                <testcase name="sendmailtest" time="3,129" classname="SendEMailTest.SendMailTest" />
-                <testcase name="checkinboxtest" time="1,761" classname="SendEMailTest.SendMailTest" />
-                <testcase name="savetoDB" time="0,012" classname="SendEMailTest.SendMailTest" />
-                <testcase name="checkinboxtest" time="3,196" classname="SendEMailTest.SendMailTest" />
-                <testcase name="savetoDB" time="0,011" classname="SendEMailTest.SendMailTest" />
-                <testcase name="checkoutboxtest" time="1,797" classname="SendEMailTest.SendMailTest" />
-                <testcase name="savetofile" time="0,002" classname="SendEMailTest.SendMailTest" />
-                <testcase name="savetofile" time="0,006" classname="SendEMailTest.SendMailTest" />
-                <testcase name="checkoutboxtest" time="1,793" classname="SendEMailTest.SendMailTest" />
+            <testcase name="checkoutboxtest" time="1,764" classname="sendEMailTest.SendMailTest" />
+                <testcase name="sendmailtest" time="3,138" classname="sendEMailTest.SendMailTest" />
+                <testcase name="sendmailtest" time="3,182" classname="sendEMailTest.SendMailTest" />
+                <testcase name="savetoDB" time="1,214" classname="sendEMailTest.SendMailTest" />
+                <testcase name="checkoutboxtest" time="1,729" classname="sendEMailTest.SendMailTest" />
+                <testcase name="checkinboxtest" time="2,606" classname="sendEMailTest.SendMailTest" />
+                <testcase name="savetoDB" time="0,012" classname="sendEMailTest.SendMailTest" />
+                <testcase name="savetofile" time="0,014" classname="sendEMailTest.SendMailTest" />
+                <testcase name="sendmailtest" time="3,322" classname="sendEMailTest.SendMailTest" />
+                <testcase name="checkinboxtest" time="4,262" classname="sendEMailTest.SendMailTest" />
+                <testcase name="savetofile" time="0,004" classname="sendEMailTest.SendMailTest" />
+                <testcase name="sendmailtest" time="3,129" classname="sendEMailTest.SendMailTest" />
+                <testcase name="checkinboxtest" time="1,761" classname="sendEMailTest.SendMailTest" />
+                <testcase name="savetoDB" time="0,012" classname="sendEMailTest.SendMailTest" />
+                <testcase name="checkinboxtest" time="3,196" classname="sendEMailTest.SendMailTest" />
+                <testcase name="savetoDB" time="0,011" classname="sendEMailTest.SendMailTest" />
+                <testcase name="checkoutboxtest" time="1,797" classname="sendEMailTest.SendMailTest" />
+                <testcase name="savetofile" time="0,002" classname="sendEMailTest.SendMailTest" />
+                <testcase name="savetofile" time="0,006" classname="sendEMailTest.SendMailTest" />
+                <testcase name="checkoutboxtest" time="1,793" classname="sendEMailTest.SendMailTest" />
       
 </testsuite>

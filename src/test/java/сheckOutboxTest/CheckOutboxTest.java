@@ -1,4 +1,4 @@
-package CheckOutboxTest;
+package сheckOutboxTest;
 
 import com.webDriver.CheckOutbox.CheckOutbox;
 import org.apache.log4j.Logger;

@@ -1,4 +1,4 @@
-package LogInTest;
+package logInTest;
 
 import com.webDriver.LogIn.LogInNegative;
 import org.testng.annotations.Test;

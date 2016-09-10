@@ -8,10 +8,10 @@
   <properties />
   
   
-            <testcase name="withoutLogin" time="16,943" classname="LogInTest.LogInNegativeTest" />
-                <testcase name="invalidLogin" time="4,317" classname="LogInTest.LogInNegativeTest" />
-                <testcase name="withoutPassword" time="5,446" classname="LogInTest.LogInNegativeTest" />
-                <testcase name="invalidLoginPassword" time="4,830" classname="LogInTest.LogInNegativeTest" />
-                <testcase name="invalidPassword" time="5,217" classname="LogInTest.LogInNegativeTest" />
+            <testcase name="withoutLogin" time="16,943" classname="logInTest.LogInNegativeTest" />
+                <testcase name="invalidLogin" time="4,317" classname="logInTest.LogInNegativeTest" />
+                <testcase name="withoutPassword" time="5,446" classname="logInTest.LogInNegativeTest" />
+                <testcase name="invalidLoginPassword" time="4,830" classname="logInTest.LogInNegativeTest" />
+                <testcase name="invalidPassword" time="5,217" classname="logInTest.LogInNegativeTest" />
       
 </testsuite>

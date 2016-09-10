@@ -1,4 +1,4 @@
-2016-09-07 00:04:56 INFO  CheckOutboxTest:35 -  - start checkOutBox test
+2016-09-07 00:04:56 INFO  сheckOutboxTest:35 -  - start checkOutBox test
 2016-09-07 00:04:56 INFO  CheckOutbox:19 -  - try to open chrome
 2016-09-07 00:05:00 INFO  CheckOutbox:21 -  - try to set account
 2016-09-07 00:05:01 INFO  CheckOutbox:31 -  - try to open account

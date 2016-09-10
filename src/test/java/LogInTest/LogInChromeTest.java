@@ -1,4 +1,4 @@
-package LogInTest;
+package logInTest;
 
 /**
  * Log in to acc1 from UI. Check e-mail in Sent present  (webDriver)

@@ -1,4 +1,4 @@
-package CheckInboxTest;
+package сheckInboxTest;
 
 import com.webDriver.CheckInbox.CheckInBox;
 import org.apache.log4j.Logger;
